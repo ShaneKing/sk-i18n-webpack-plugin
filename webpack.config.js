@@ -11,7 +11,7 @@ module.exports = {
     new SKI18NWebpackPlugin({
       verbose: true,
       folderMapping: {codesAddress: 'codes'},
-      dist: '../dist/json',
+      dist: 'json',
       srcs: ['public/json/codes_en_US.json', 'public/json/codesAddress_en_US.json', 'public/json/i18n_en_US.json', 'public/json/i18n_zh_CN.json']
     })
   ]
