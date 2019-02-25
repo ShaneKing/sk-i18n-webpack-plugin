@@ -6,7 +6,7 @@
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
   <h1>sk-i18n-webpack-plugin</h1>
-  <p>I18N Webpack Plugin For ShaneKing</p>
+  <p>I18N Webpack Plugin for ShaneKing</p>
 </div>
 
 [![npm][npm]][npm-url]
