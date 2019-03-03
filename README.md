@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://shaneking.org">
+  <a href="https://github.com/ShaneKing">
     <img width="200" height="200" src="https://avatars3.githubusercontent.com/u/3394899">
   </a>
   <a href="https://github.com/webpack/webpack">
