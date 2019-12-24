@@ -1,0 +1,53 @@
+{
+  "name": "sk-i18n-webpack-plugin",
+  "description": "Generates hash i18n json file by webpack bundle",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ShaneKing/sk-i18n-webpack-plugin",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "ShaneKing",
+    "email": "github@azolla.org",
+    "url": "http://shaneking.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ShaneKing/sk-i18n-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShaneKing/sk-i18n-webpack-plugin/issues"
+  },
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "ShaneKing",
+    "SK",
+    "I18N",
+    "i18n"
+  ],
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "test": "npm run build && webpack"
+  },
+  "dependencies": {
+    "sk-js": "0.3.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.3",
+    "@babel/plugin-proposal-class-properties": "7.3.3",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/preset-env": "7.3.1",
+    "babel-plugin-add-module-exports": "1.0.0",
+    "cross-env": "5.2.0",
+    "webpack": "4.29.5",
+    "webpack-cli": "3.2.3"
+  }
+}
